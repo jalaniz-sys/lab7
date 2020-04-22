@@ -18,5 +18,6 @@ function init()
 	button.addEventListener('click', alertUser);
 	button.addEventListener('click',msgOutput);
 }
+window.addEventListener('load',init);
 
 }
